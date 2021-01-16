@@ -17,46 +17,49 @@
              font-size:15px;
              line-height:24px;
              color:#ffffff;
+             position: absolute;
+             width: 100%;
             }
+            .container {
+                        width: auto;
+                        padding: 0 15px;
+                       }
     </style>
 
     <title>Buy</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-        <a class="navbar-brand" href="#">
-            <p>AdShoes</p>
-          </a>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-
-            <span class="navbar-toggler-icon"></span>
-      
-       </button>
-
-          <div class="collapse navbar-collapse" id="colNav">
-            
-             <ul class="navbar-nav ">
+      <a  class="navbar-brand" href="index.html">AdShoe</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  
+          <span class="navbar-toggler-icon"></span>
+    
+     </button>
+    
+      <!--Items-->
+      <div class="collapse navbar-collapse" id="colNav">
+          <ul class="navbar-nav ">
+              <!--active make the object white-->
               <li class="nav-item">
-                <a class="nav-link" href="/ShoePurchaseWebsite/services.html">Service</a>
+                <a class="nav-link" href="buy.html">Service</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html">About</a>
+                </li>    
+          </ul>
+            <!-- To the left side side  -->
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="login.html">Login</a>
               </li>
-             <li class="nav-item">
-                <a class="nav-link" href="/ShoePurchaseWebsite/index.html">About</a>
-              </li>       
-              </ul>
-
-              <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                        <a class="nav-link" href="/ShoePurchaseWebsite/login.html">Login</a>
-                </li>
-                <li class="nav-item">
-                     <a class="nav-link" href="/ShoePurchaseWebsite/register.htm">Register</a>
-                 </li>      
-                </ul>
-          </div>
+              <li class="nav-item">
+                     <a class="nav-link" href="register.html">Register</a>
+              </li>  
+          </ul>
+      </div>
     </nav>
     
-  </div>
 
   <div class="col-md-4">
     <h4><span class="text-muted">Your cart</span></h4>
